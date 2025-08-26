@@ -1,0 +1,6 @@
+:root {
+    --primary-color: rgb(147 194 169); /* Light navy green */
+    --secondary-color: rgb(74, 135, 103); /* Darker navy green */
+    --text-color: #000000;
+    --header-text-color: #000000;
+}

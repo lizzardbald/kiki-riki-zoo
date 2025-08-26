@@ -1,0 +1,129 @@
+/* Sections */
+section {
+    padding: 100px 20px 20px;
+    min-height: 100vh;
+    border-bottom: 1px solid #ccc;
+    position: relative; /* Needed for pseudo-elements */
+}
+
+section::before, section::after {
+    content: '';
+    position: absolute;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background-image: url('../assests/paw copy.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1; /* Place behind content */
+}
+
+section::before {
+    top: 20%;
+    left: 5%;
+}
+
+section::after {
+    bottom: 20%;
+    right: 5%;
+}
+
+
+section h1, section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 10% 0 10%;
+}
+
+.section-container.reverse {
+    flex-direction: row-reverse;
+}
+
+.section-image {
+    flex: 1;
+}
+
+.section-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* For about us cats */
+#cats-wrapper {
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+#cats-wrapper img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.kiki {
+    position: relative;
+    transform: rotate(13deg);
+}
+
+.riki {
+    position: absolute;
+    transform: rotate(-13deg);
+    top: -5px;
+}
+
+.section-text {
+    flex: 1;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 15% 0 15%;
+}
+
+.brand-logo {
+    flex-basis: 200px; /* Adjust as needed */
+    text-align: center;
+}
+
+.brand-logo img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.brand-logo img:hover {
+    transform: scale(1.1);
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 15% 0 15%;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-map {
+    flex: 1;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+}
