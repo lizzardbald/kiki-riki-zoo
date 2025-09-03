@@ -2,7 +2,6 @@
 section {
     padding: 100px 20px 20px;
     min-height: 100vh;
-    border-bottom: 1px solid #ccc;
     position: relative; /* Needed for pseudo-elements */
 }
 
@@ -96,6 +95,9 @@ section h1, section h2 {
     text-align: center;
 }
 
+#products > h2 {
+    margin-bottom: 50px;
+}
 .brand-logo img {
     max-width: 100%;
     height: auto;
