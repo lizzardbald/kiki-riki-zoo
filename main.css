@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-@import url('_variables.css');
-@import url('_nav.css');
-@import url('_sections.css');
-@import url('_footer.css');
-@import url('_responsive.css');
+@import url('/styles/_variables.css');
+@import url('/styles/_nav.css');
+@import url('/styles/_sections.css');
+@import url('/styles/_footer.css');
+@import url('/styles/_responsive.css');
 
 /* General styles */
 * {
