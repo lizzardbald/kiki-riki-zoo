@@ -1,0 +1,16 @@
+{
+  "name": "kiki-riki-zoo",
+  "version": "1.0.0",
+  "description": "Pet shop site",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizzardbald/kiki-riki-zoo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizzardbald/kiki-riki-zoo/issues"
+  },
+  "homepage": "https://github.com/lizzardbald/kiki-riki-zoo#readme"
+}
